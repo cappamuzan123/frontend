@@ -99,7 +99,7 @@ class App extends React.Component {
 	}
 	
 	
-// to render to component
+// to render to component file
 	
 	render() {
 	console.log(this.state.hotel);
