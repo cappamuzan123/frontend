@@ -17,7 +17,7 @@ class App extends React.Component {
 	  this.handleDelete = this.handleDelete.bind(this);
   }
 
-
+//to change he handle
 			  handleChange(event) {
 				const target = event.target;
 				const value = target.value;
@@ -58,7 +58,7 @@ class App extends React.Component {
 		  }
 
 
-//save into database
+//save into database 
   handleSubmit(event) {
 	console.log(this.state);
     event.preventDefault();
@@ -99,7 +99,7 @@ class App extends React.Component {
 	}
 	
 	
-// to render
+// to render to component
 	
 	render() {
 	console.log(this.state.hotel);
