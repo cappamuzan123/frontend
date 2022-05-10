@@ -17,7 +17,7 @@ class App extends React.Component {
 	  this.handleDelete = this.handleDelete.bind(this);
   }
 
-//to change he handle name
+//to change he handle 
 			  handleChange(event) {
 				const target = event.target;
 				const value = target.value;
@@ -28,7 +28,7 @@ class App extends React.Component {
 				});
 			  }
 			  
-			 // to delete data
+			 // to delete handle
 			handleDelete(event) {
 			let id=event.target.id;		
 			const recipeUrl = 'https://mi-linux.wlv.ac.uk/~2062063/ciproject/public/index.php/project/cancel/'+ id;
