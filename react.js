@@ -17,7 +17,7 @@ class App extends React.Component {
 	  this.handleDelete = this.handleDelete.bind(this);
   }
 
-//to change he handle 
+//to change he file profile 
 			  handleChange(event) {
 				const target = event.target;
 				const value = target.value;
