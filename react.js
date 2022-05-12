@@ -58,7 +58,7 @@ class App extends React.Component {
 		  }
 
 
-//save into database file 
+//save into database file headers
   handleSubmit(event) {
 	console.log(this.state);
     event.preventDefault();
