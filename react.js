@@ -47,7 +47,7 @@ class App extends React.Component {
 				  });
 				  
 				  
-			//	  refresh data packages 
+			//	  refresh data history 
 	  	fetch('https://mi-linux.wlv.ac.uk/~2062063/ciproject/public/index.php/project/index')
 		.then(res => res.json())
 		.then((data) => {
@@ -88,7 +88,7 @@ class App extends React.Component {
   }
 
 	
-	 //to input the data
+	 //to input the data history 
 	componentDidMount() {
 	fetch('https://mi-linux.wlv.ac.uk/~2062063/ciproject/public/index.php/project/index')
 		.then(res => res.json())
