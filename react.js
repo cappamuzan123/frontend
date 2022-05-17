@@ -28,7 +28,7 @@ class App extends React.Component {
 				});
 			  }
 			  
-			 // to delete handle tag
+			 // to delete handle map
 			handleDelete(event) {
 			let id=event.target.id;		
 			const recipeUrl = 'https://mi-linux.wlv.ac.uk/~2062063/ciproject/public/index.php/project/cancel/'+ id;
@@ -47,7 +47,7 @@ class App extends React.Component {
 				  });
 				  
 				  
-			//	  refresh data history 
+			//	  refresh data page
 	  	fetch('https://mi-linux.wlv.ac.uk/~2062063/ciproject/public/index.php/project/index')
 		.then(res => res.json())
 		.then((data) => {
