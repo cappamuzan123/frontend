@@ -28,7 +28,7 @@ class App extends React.Component {
 				});
 			  }
 			  
-			 // to delete handle
+			 // to delete handle tag
 			handleDelete(event) {
 			let id=event.target.id;		
 			const recipeUrl = 'https://mi-linux.wlv.ac.uk/~2062063/ciproject/public/index.php/project/cancel/'+ id;
